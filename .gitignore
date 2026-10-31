@@ -1,0 +1,26 @@
+# Generated build products and bundled dependencies
+build/
+third_party
+third_party/
+dist/
+
+# Impeccable CLI design session artifacts
+.impeccable/
+
+# Local machine metadata and Claude Code settings
+.DS_Store
+.claude/settings.local.json
+
+# Generated Python artifacts
+__pycache__/
+*.py[cod]
+
+# Notas internas de desenvolvimento (ficam só na máquina, fora do repositório público)
+CLAUDE.md
+progress.md
+HANDOFF.md
+PRODUCT.md
+DESIGN.md
+.cartographer/
+memoria-do-projeto/
+screenshots/

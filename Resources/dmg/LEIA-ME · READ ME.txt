@@ -1,0 +1,42 @@
+UMBRA SCOPE — instalação / installation
+=======================================
+
+Português
+---------
+Requisitos: Mac com Apple Silicon (M1 ou mais novo) e macOS 14 Sonoma ou mais novo.
+
+1. Arraste "Umbra Scope" para a pasta Aplicativos (Applications).
+
+2. Primeira abertura. O Umbra Scope é gratuito e não passa pela verificação paga da Apple, então o macOS
+   avisa que "não pôde verificar" o app. Isso acontece só uma vez:
+   a. Dê dois cliques no Umbra Scope. Vai aparecer o aviso — clique em "Concluído" (ou "OK").
+   b. Abra Ajustes do Sistema → Privacidade e Segurança. Role até o fim: aparece
+      "Umbra Scope foi bloqueado…". Clique em "Abrir Mesmo Assim" e confirme com a sua senha.
+   c. Abra o Umbra Scope de novo e clique em "Abrir".
+   (Alternativa pelo Terminal:  xattr -dr com.apple.quarantine "/Applications/Umbra Scope.app")
+
+3. DaVinci Resolve. Na primeira abertura, se o Resolve estiver instalado, o Umbra Scope oferece instalar o
+   plugin Umbra Link (pede a senha de administrador). Também fica no menu Umbra Scope → "Install DaVinci Resolve
+   Plugin…". Reinicie o Resolve e, na página Color, arraste o efeito "Umbra Link" (OpenFX) para um nó.
+
+O app não usa internet, não coleta dados e não se atualiza sozinho. Licenças: menu Umbra Scope → Licenses.
+
+English
+-------
+Requires an Apple Silicon Mac (M1 or newer) and macOS 14 Sonoma or newer.
+
+1. Drag "Umbra Scope" into Applications.
+
+2. First launch. Umbra Scope is free and is not run through Apple's paid notarization, so macOS says it
+   "could not verify" the app. This happens once:
+   a. Double-click Umbra Scope. When the warning shows, click "Done" (or "OK").
+   b. Open System Settings → Privacy & Security, scroll down to "Umbra Scope was blocked…", click
+      "Open Anyway" and confirm with your password.
+   c. Open Umbra Scope again and click "Open".
+   (Or in Terminal:  xattr -dr com.apple.quarantine "/Applications/Umbra Scope.app")
+
+3. DaVinci Resolve. On first launch, if Resolve is installed, Umbra Scope offers to install the Umbra Link plugin
+   (asks for an administrator password). It is also in the Umbra Scope menu → "Install DaVinci Resolve Plugin…".
+   Restart Resolve and, on the Color page, drag the "Umbra Link" OpenFX effect onto a node.
+
+The app does not use the internet, collects no data and does not update itself. Licences: Umbra Scope menu → Licenses.
